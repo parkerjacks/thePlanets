@@ -1,0 +1,43 @@
+html { }
+body { } 
+.surfaces { display: flex; 
+    flex-direction: row;
+    overflow-x: hidden;
+    height: 90vh
+} 
+
+
+.land, .sea, .air { 
+    font-family: "Londrina Solid";
+    font-size: 300%;
+    color: white;
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+}
+.land{ 
+    width: calc(100%/3);
+    /* background-color: brown; */
+    height: 100%;
+    border: 10px solid white;
+    background-image: url("./images/dane-deaner-H2cLIB7K_90-unsplash.jpg") ;
+    background-size: cover;
+    
+
+} 
+.sea {
+    width: calc(100%/3);
+    background-color: blue;
+    height: 100%;
+    border: 10px solid white;
+    background-image: url("./images/tayla-maurici-hnmzHJqNCAU-unsplash.jpg");
+    background-size: cover;
+} 
+.air {
+    width: calc(100%/3);
+    /* background-color: cadetblue; */
+    height: 100%; 
+    border: 10px solid white;
+    background-image: url("./images/tengyart-Hcqh_QSO0kg-unsplash.jpg");
+    background-size: cover;
+}
