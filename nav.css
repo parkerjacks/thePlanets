@@ -6,6 +6,9 @@ body { }
     height: 90vh
 } 
 
+a:link {
+    text-decoration: none;
+}
 
 .land, .sea, .air { 
     font-family: "Londrina Solid";
@@ -14,6 +17,7 @@ body { }
    display: flex; 
    flex-direction: column;
    justify-content: center;
+   align-items: center;
 }
 .land{ 
     width: calc(100%/3);
